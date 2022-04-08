@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="checkbox" class="toggle" id="toggle" checked="checked" /><label class="toggle" for="toggle"> SHI - FU - MI</label>
+        <div class="menu">
+            <div class="top">
+                <span class="search">
+                    <input type="text">
+                </span>
+                <a class="exit" href="#" tabindex="0"></a>
+            </div>
+            <div id="anim">
+                <div >VICTORY: <em id="vict"></em></div>
+                <div>LOOSE: <em  id="def"></em></div>
+                <div >DRAW: <em id="draw"></em></div>
+            </div>
+
+            <ul class="middle">
+                <li tabindex="0" class="imag">
+                    <i class="fa fa-dribbble" id="btnRock"></i>
+                    <img src="images/pierre-tombale.png" width="50px" height="50px" alt="">
+                    Pierre
+                </li>
+
+                <li tabindex="0" class="imag">
+                    <i class="fa fa-user" id="btnPaper"></i>
+                    <img src="images/papeterie-papiers-empiles.png" width="50px" height="50px" alt="Feuille">
+                    Feuille
+                </li>
+
+                <li tabindex="0" class="imag">
+                    <i class="fa fa-cogs" id=btnCut"></i>
+                    <img src="images/les-ciseaux.png" width="50px" height="50px">
+                    Ciseaux
+                </li>
+
+                <button class="playAgain" id="rePlay"><li tabindex="0"><i></i>Rejouer</li></button>
+            </ul>
+            <div class="bottom"></div>
+            <div class="menu-back"></div>
+            <div class="glass-reflection"></div>
+        </div>
+    </div>
+
+   
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
